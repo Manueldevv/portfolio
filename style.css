@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.hero-section {
+  background-image: url(images/herobackground.avif);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: "sacramento";
+}
+
+.hero-section,
+ul {
+  font-size: 35px;
+}
+
+.hero-section,
+li {
+  margin-right: 50px;
+}
+
+.main-text {
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "sacramento";
+}
+
+.main-text,
+h1 {
+  font-size: 150px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
+.grammer {
+  font-size: 70px;
+  padding-top: 0px;
+}
+
+/* For the resume page */
+
+.d-block {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.skill-logo {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.nav-item {
+  font-size: 50px;
+  font-family: "sacramento";
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: white;
+  font-size: 60px;
+  border-radius: 20px;
+  transition-delay: 0.1s;
+}
